@@ -7,8 +7,8 @@ const reverseString = function(text) {
 
 
   // Also an interesting solution without using loop
-  // const reversedStr = text.split('').reverse().join('');
-  // return reversedStr
+  // return reversedStr = text.split('').reverse().join('');
+  
 };
 
 // Do not edit below this line
