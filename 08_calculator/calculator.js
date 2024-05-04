@@ -16,8 +16,7 @@ const multiply = function(array) {
 
 const power = function(a, b) {
   // return Math.pow(a, b); Well it`s certainly better way 
-  let guys = [a, b];
-	return guys.reduce((total, current) => total ** current, )
+  return [a, b].reduce((total, current) => total ** current, );
 };
 
 const factorial = function(num) {
